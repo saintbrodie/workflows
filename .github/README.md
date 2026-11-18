@@ -40,28 +40,28 @@ SAM3.1, FLUX.2 Klein, Bernini/Wan, Ideogram4, Krea2, LTX 2.5, MiniMax H3, Qwen I
 
 | Workflow | Model section | Custom-node packs |
 | --- | --- | --- |
-| [Background Removal (SAM3).json](<Background%20Removal%20%28SAM3%29.json>) | [SAM3.1](#sam31) | None |
-| [Bernini Video Editing.json](<Bernini%20Video%20Editing.json>) | [Bernini](#bernini) | VideoHelperSuite |
-| [Ideogram4 Playground.json](<Ideogram4%20Playground.json>) | [Ideogram4 + shared upscaler](#ideogram4) | KJNodes, rgthree, Ollama, SeedVR2 Video Upscaler |
-| [Klein Dataset Maker.json](<Klein%20Dataset%20Maker.json>) | [Klein](#flux2-klein) | Comfyroll |
-| [Klein Edit.json](<Klein%20Edit.json>) | [Klein + Z-Image refiner](#flux2-klein) | rgthree, Ollama |
-| [Klein Face Maker.json](<Klein%20Face%20Maker.json>) | [Klein + SAM3.1](#flux2-klein) | KJNodes, Easy Use, rgthree |
-| [Klein Headswap.json](<Klein%20Headswap.json>) | [Klein + Z-Image refiner](#flux2-klein) | rgthree, Ollama |
-| [Krea2 Turbo.json](<Krea2%20Turbo.json>) | [Krea2 + shared upscaler](#krea2) | Ollama |
-| [LTX Video 2.5 FLF2V.json](<LTX%20Video%202.5%20FLF2V.json>) | [LTX 2.5](#ltx-25) | None |
-| [LTX Video 2.5 I2V.json](<LTX%20Video%202.5%20I2V.json>) | [LTX 2.5](#ltx-25) | None |
-| [LTX Video 2.5 T2V.json](<LTX%20Video%202.5%20T2V.json>) | [LTX 2.5](#ltx-25) | None |
-| [Minimax H3 CharacterSheet 6p.json](<Minimax%20H3%20CharacterSheet%206p.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, rgthree |
-| [Minimax H3 i2v.json](<Minimax%20H3%20i2v.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, rgthree, Ollama, Spectrum |
-| [Minimax H3 r2v.json](<Minimax%20H3%20r2v.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, Ollama |
-| [Minimax H3 t2v.json](<Minimax%20H3%20t2v.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, rgthree, Ollama, Spectrum |
-| [Minimax_H3_r2v.json](<Minimax_H3_r2v.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, Ollama |
-| [MiniMax_H3_Ref2V_v4_AutoRoles.json](<MiniMax_H3_Ref2V_v4_AutoRoles.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, Ollama |
-| [Qwen Image 2.1 Edit.json](<Qwen%20Image%202.1%20Edit.json>) | [Qwen Image 2.1](#qwen-image-21) | None |
-| [Qwen Image 2.1 Multi Angle.json](<Qwen%20Image%202.1%20Multi%20Angle.json>) | [Qwen Image 2.1](#qwen-image-21) | Easy Use |
-| [SeedVR2 Image Upscale.json](<SeedVR2%20Image%20Upscale.json>) | [Native SeedVR2](#native-seedvr2) | rgthree |
-| [SeedVR2 Video Upscale.json](<SeedVR2%20Video%20Upscale.json>) | [Native SeedVR2](#native-seedvr2) | None |
-| [Song Gen v1.json](<Song%20Gen%20v1.json>) | [ACE-Step](#ace-step--song-gen) | Comfyroll, Ollama |
+| [Background Removal (SAM3).json](<../Background%20Removal%20%28SAM3%29.json>) | [SAM3.1](#sam31) | None |
+| [Bernini Video Editing.json](<../Bernini%20Video%20Editing.json>) | [Bernini](#bernini) | VideoHelperSuite |
+| [Ideogram4 Playground.json](<../Ideogram4%20Playground.json>) | [Ideogram4 + shared upscaler](#ideogram4) | KJNodes, rgthree, Ollama, SeedVR2 Video Upscaler |
+| [Klein Dataset Maker.json](<../Klein%20Dataset%20Maker.json>) | [Klein](#flux2-klein) | Comfyroll |
+| [Klein Edit.json](<../Klein%20Edit.json>) | [Klein + Z-Image refiner](#flux2-klein) | rgthree, Ollama |
+| [Klein Face Maker.json](<../Klein%20Face%20Maker.json>) | [Klein + SAM3.1](#flux2-klein) | KJNodes, Easy Use, rgthree |
+| [Klein Headswap.json](<../Klein%20Headswap.json>) | [Klein + Z-Image refiner](#flux2-klein) | rgthree, Ollama |
+| [Krea2 Turbo.json](<../Krea2%20Turbo.json>) | [Krea2 + shared upscaler](#krea2) | Ollama |
+| [LTX Video 2.5 FLF2V.json](<../LTX%20Video%202.5%20FLF2V.json>) | [LTX 2.5](#ltx-25) | None |
+| [LTX Video 2.5 I2V.json](<../LTX%20Video%202.5%20I2V.json>) | [LTX 2.5](#ltx-25) | None |
+| [LTX Video 2.5 T2V.json](<../LTX%20Video%202.5%20T2V.json>) | [LTX 2.5](#ltx-25) | None |
+| [Minimax H3 CharacterSheet 6p.json](<../Minimax%20H3%20CharacterSheet%206p.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, rgthree |
+| [Minimax H3 i2v.json](<../Minimax%20H3%20i2v.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, rgthree, Ollama, Spectrum |
+| [Minimax H3 r2v.json](<../Minimax%20H3%20r2v.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, Ollama |
+| [Minimax H3 t2v.json](<../Minimax%20H3%20t2v.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, rgthree, Ollama, Spectrum |
+| [Minimax_H3_r2v.json](<../Minimax_H3_r2v.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, Ollama |
+| [MiniMax_H3_Ref2V_v4_AutoRoles.json](<../MiniMax_H3_Ref2V_v4_AutoRoles.json>) | [MiniMax H3](#minimax-h3) | KJNodes, RTX Nodes, Ollama |
+| [Qwen Image 2.1 Edit.json](<../Qwen%20Image%202.1%20Edit.json>) | [Qwen Image 2.1](#qwen-image-21) | None |
+| [Qwen Image 2.1 Multi Angle.json](<../Qwen%20Image%202.1%20Multi%20Angle.json>) | [Qwen Image 2.1](#qwen-image-21) | Easy Use |
+| [SeedVR2 Image Upscale.json](<../SeedVR2%20Image%20Upscale.json>) | [Native SeedVR2](#native-seedvr2) | rgthree |
+| [SeedVR2 Video Upscale.json](<../SeedVR2%20Video%20Upscale.json>) | [Native SeedVR2](#native-seedvr2) | None |
+| [Song Gen v1.json](<../Song%20Gen%20v1.json>) | [ACE-Step](#ace-step--song-gen) | Comfyroll, Ollama |
 
 ## SAM3.1
 
@@ -250,3 +250,8 @@ Start Ollama before queueing any graph that uses its nodes. Ensure the connectiv
 - Replace missing example inputs. This repository contains workflow graphs; model weights and source media must be obtained separately.
 - If a model download is gated, sign in and accept the publisher's terms on its model page. Civitai may require login for downloads.
 - These requirements were checked against workflow JSON, installed pack metadata, Hugging Face file listings, Civitai version metadata, and upstream project documentation. **The workflows were not executed as part of this README audit.**
+
+
+## Contributor and maintenance guidance
+
+New workflows should follow [WORKFLOW_STYLE_GUIDE.md](../.maintenance/WORKFLOW_STYLE_GUIDE.md) for naming, colors, layout, and usage notes. Read [AGENTS.md](../AGENTS.md) before maintenance, keep presentation edits separate from functional changes, and validate edited JSON with [the workflow validator](../.maintenance/validate_workflow_cosmetics.py). Routine standardization covers active root workflows only; `archive/` is excluded.
