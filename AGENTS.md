@@ -1,0 +1,11 @@
+# Workflow Maintenance
+
+- Read the [workflow style guide](.maintenance/WORKFLOW_STYLE_GUIDE.md) before creating or modifying active workflows. It is the authoritative reference for presentation and naming.
+- Maintain only active root-level workflow JSON and embedded definitions. Completely exclude `archive/` from routine inspection, audits, validation, formatting, and edits. Do not edit `.index.json` or rename workflow files during presentation maintenance.
+- Cosmetic cleanup may change only visible node titles/colors/backgrounds, existing group titles/colors, and explicitly reviewed instructional note text. Preserve all other data: IDs/types, links, sockets, widgets/defaults/prompts/models, states/flags, interfaces, geometry, group boundaries, and processing logic. Functional changes require a separate explicit user request.
+- Use the approved semantic headers and common charcoal body, concise Title Case, and official model capitalization from the guide. Apply colors selectively.
+- Preserve model/parser syntax exactly, including `<Picture 1>`, `<Video 1>`, `<Audio 1>`, numbered references, trigger words, and structured prompt keys. Preserve uncertain labels. Protect group colors/names used by bypass controls, particularly CharacterSheet's cyan (`#8AA`) groups.
+- Keep layouts unchanged unless explicitly asked to alter them. Give every active workflow a Quick Start note with **What It Does** and **How to Use**. Use the saved control names, explain what to load and where results appear, and keep model setup and advanced instructions separate. Add or edit notes when the task authorizes documentation changes.
+- Validate every edited workflow against its original with `.maintenance/validate_workflow_cosmetics.py`, including embedded subgraphs. Inspect all reported fields. Default mode is strict; enable root-layout/note additions only for specifically authorized changes. Parsing alone does not prove runtime functionality. Request visual review when the design changes.
+- Store maintenance scripts and reference docs in `.maintenance/` so they stay out of ComfyUI's workflow list. Keep the GitHub README in `.github/`.
+- Preserve formatting and unrelated data; keep diffs focused. Update the guide when the user approves a new convention.
